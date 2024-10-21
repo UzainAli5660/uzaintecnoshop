@@ -2,18 +2,18 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import "./App.css";
 import Home from "./pages/Home";
-import SignUp from "./Pages/auth/SignUp";  
-import Signin from "./Pages/auth/Signin";
-import Products from "./Pages/Products";
-import ProductDetails from "./Pages/ProductDetails";
-import Orders from "./Pages/Orders";
-import Auth from "./Pages/auth/Auth";
-import Dashboard from "./Pages/Dashboard";
-import Carts from "./Pages/Carts";
-import Admin from "./Pages/Admin";
-import AdProducts from "./Pages/AdProducts";
-import AdOrders from "./Pages/AdOrders";
-import AdUsers from "./Pages/AdUsers";
+import SignUp from "./pages/auth/SignUp";  
+import Signin from "./pages/auth/Signin";
+import Products from "./pages/Products";
+import ProductDetails from "./pages/ProductDetails";
+import Orders from "./pages/Orders";
+import Auth from "./pages/auth/Auth";
+import Dashboard from "./pages/Dashboard";
+import Carts from "./pages/Carts";
+import Admin from "./pages/Admin";
+import AdProducts from "./pages/AdProducts";
+import AdOrders from "./pages/AdOrders";
+import AdUsers from "./pages/AdUsers";
 import ProtectedRoute from './Components/ProtectedRoute';
 
 function App() {
